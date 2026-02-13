@@ -85,6 +85,3 @@ Stable memory footprint due to chunked streaming
 
 
 Miguel Ángel Freijedo
-
-
-
