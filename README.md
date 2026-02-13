@@ -1,6 +1,6 @@
-\# CAT → Parquet Extractor for Spanish Cadastral CAT files
+# CAT → Parquet Extractor for Spanish Cadastral CAT files
 
-\### Spanish Cadastral (.CAT) Fixed-Width to Parquet CLI Tool
+### Spanish Cadastral (.CAT) Fixed-Width to Parquet CLI Tool
 
 
 
@@ -8,25 +8,25 @@ CLI tool to transform Spanish Cadastral (.CAT) fixed-width files into optimized 
 
 
 
-\## Features
+## Features
 
 
 
-\- Chunked streaming processing (memory efficient)
+- Chunked streaming processing (memory efficient)
 
-\- Fixed-width parsing based on official cadastral specifications
+- Fixed-width parsing based on official cadastral specifications
 
-\- Schema consistency enforced via PyArrow
+- Schema consistency enforced via PyArrow
 
-\- CLI-driven execution (argparse-based)
+- CLI-driven execution (argparse-based)
 
-\- Snappy-compressed Parquet output
+- Snappy-compressed Parquet output
 
-\- Designed for large-scale national datasets
+- Designed for large-scale national datasets
 
 
 
-\## Installation
+## Installation
 
 
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 
 
-\## Usage
+## Usage
 
 
 
@@ -46,7 +46,7 @@ python src/cat\_extract.py --input-folder /path/2/cat --table 11 --output table1
 
 
 
-\## Supported Tables
+## Supported Tables
 
 
 
@@ -64,23 +64,17 @@ https://www.catastro.hacienda.gob.es/documentos/formatos\_intercambio/catastro\_
 
 
 
-\## Performance
-
+## Performance
 
 
 Tested on full national dataset:
 
-
-
 ~250GB raw CAT files to ~9GB optimized Parquet output
-
-
 
 Stable memory footprint due to chunked streaming
 
 
-
-\## Author
+## Author
 
 
 
